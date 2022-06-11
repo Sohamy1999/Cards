@@ -1,0 +1,93 @@
+.container-5{
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    background-image: url("images/wood.jpg");
+    border: 4px solid transparent;
+    border-image: url(images/darkwood.jpg) 30 stretch;
+}
+
+.flex-backjack-row-1{
+    border-top: 4px solid rgb(0, 64, 0);
+    display: flex;
+    padding: 2px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url("images/velvet.jpg");
+    color: aliceblue;
+}
+
+.flex-backjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-backjack-row-2{
+    padding: 10px;
+    background-image: url("images/velvet.jpg");
+    text-align: center;
+    border-bottom: 4px solid rgb(0, 64, 0);
+}
+
+.flex-backjack-row-2 div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.flex-backjack-row-2 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-backjack-row-1 div{
+    border: 1px solid white;
+    padding: 10px;
+    height: 350px;
+    flex: 1;
+    margin: 4px;
+    text-align: center;
+}
+
+.flex-backjack-row-3{
+    display: flex;
+    border: 10px solid palegoldenrod;
+    padding: 2px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background: white;
+}
+
+.flex-backjack-row-4{
+    padding: 20px;
+    text-align: center;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-image: url(images/darkwood.jpg) 30 stretch;
+    
+}
+
+.flex-backjack-row-4 button{
+    width: 50%;
+}
+
+.flex-backjack-row-5{
+    padding: 10px;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+th, td{
+    border: 1px solid greenyellow;
+    padding: 5px;
+}
